@@ -1,0 +1,27 @@
+@media (max-width: 425px){
+    
+    
+    .section-principal .galeria{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,1fr);
+        grid-template-areas: 
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        ;
+    }
+
+    .main-content{
+        align-items: center;
+
+    }
+    .main-content h1{
+        padding-bottom: 15px;
+    }
+
+    .main-content p{
+        margin: 15px;
+    }
+}
